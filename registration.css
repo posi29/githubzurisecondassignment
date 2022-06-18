@@ -50,6 +50,18 @@ body{
     .right--headline span{
             font-weight: 600;
         }
+        .t-m{
+            color: rgb(255, 0, 43);
+            text-align: center
+            }
+        .tm-2{
+            text-align: center;
+            color: gray;
+            }
+        .tm-1{
+            background-color: rgb(55, 175, 18);
+            color: white;
+            }
     input{
         width: 100%;
         padding: 18px 30px;
@@ -63,28 +75,33 @@ body{
     input:focus{
         outline: 1px solid rgb(0, 195, 255);
     }
-    .t-m{
-        color: rgb(255, 0, 43);
-        text-align: center
+    @media (max-width: 375px) {
+        body{
+            background-image: url(/IMG_9806.PNG);
         }
-    
+    .general--container{
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+    }
+    .left--container{
+        width: 100%;
+        text-align: center;
+    }
+    .left--container h1{
+        font-size: 32px;
+    }
     .left--container p{
-        font-size: 16px;
+        font-size: 32px;
     }
     .right--container{
         width: 100%;
     }
-    .right--container {
+    .form--box {
         padding: 15px;
     }
-    .tm-2{
-        text-align: center;
-        color: gray;
-    }
-    .tm-1{
-        background-color: rgb(55, 175, 18);
-        color: white;
-    }
+}
+   
     
     
 
